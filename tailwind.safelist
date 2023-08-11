@@ -1,0 +1,13 @@
+group
+flex
+items-center
+h-full
+w-full
+m-0
+mt-0
+active:animate-shake-top
+opacity-0
+block
+ml-1
+group-hover:opacity-100
+pointer-events-none

@@ -1,0 +1,17 @@
+{
+    "php-cs-fixer.autoFixBySemicolon": false,
+    "php-cs-fixer.allowRisky": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.autoFixByBracket": false,
+    "intelephense.format.enable": false,
+    "vscode-php-cs-fixer-reloaded.toolPath": "tools/php-cs-fixer",
+    "vscode-php-cs-fixer-reloaded.useCache": false,
+    "vscode-php-cs-fixer-reloaded.allowRisky": true,
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "bladeFormatter.format.sortHtmlAttributes": "code-guide",
+    "bladeFormatter.format.indentSize": 2,
+    "editor.formatOnSave": true,
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+      }      
+}

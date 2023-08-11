@@ -1,0 +1,24 @@
+// https://aka.ms/devcontainer.json
+{
+	"name": "Name on .devcontainer/devcontainer.json",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "laravel.test",
+	"workspaceFolder": "/var/www/html",
+	"remoteUser": "sail",
+	"postCreateCommand": "chown -R 1000:1000 /var/www/html",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"shufo.vscode-blade-formatter",
+				"danielzzz.vscode-php-cs-fixer-reloaded",
+				"bmewburn.vscode-intelephense-client",
+				"xdebug.php-debug",
+				"swordev.phpstan",
+				"onecentlin.laravel-blade",
+				"yzhang.markdown-all-in-one"
+			]
+		}
+	}
+}

@@ -7,25 +7,26 @@
         "check": "svelte-check --tsconfig ./tsconfig.json"
     },
     "dependencies": {
-        "axios": "^1.3.3",
-        "tailwindcss": "^3.2.7"
+        "axios": "^1.4.0",
+        "tailwindcss": "^3.3.3"
     },
     "devDependencies": {
-        "@rushstack/eslint-patch": "^1.2.0",
-        "@sveltejs/vite-plugin-svelte": "^2.0.2",
-        "@tailwindcss/forms": "^0.5.3",
+        "@rushstack/eslint-patch": "^1.3.3",
+        "@sveltejs/vite-plugin-svelte": "^2.4.5",
+        "@tailwindcss/forms": "^0.5.4",
         "@tsconfig/svelte": "^3.0.0",
-        "@types/node": "^18.14.0",
-        "autoprefixer": "^10.4.13",
-        "eslint": "^8.34.0",
-        "laravel-vite-plugin": "^0.7.4",
-        "postcss": "^8.4.21",
-        "prettier": "^2.8.4",
-        "prettier-plugin-tailwindcss": "^0.2.3",
-        "svelte": "^3.55.1",
-        "svelte-check": "^3.0.3",
-        "tslib": "^2.5.0",
-        "typescript": "^4.9.5",
-        "vite": "^4.1.2"
+        "@types/node": "^18.17.4",
+        "autoprefixer": "^10.4.14",
+        "eslint": "^8.46.0",
+        "laravel-vite-plugin": "^0.7.8",
+        "postcss": "^8.4.27",
+        "prettier": "^2.8.8",
+        "prettier-plugin-tailwindcss": "^0.2.8",
+        "svelte": "^3.59.2",
+        "svelte-check": "^3.4.6",
+        "svelte-preprocess": "^5.0.4",
+        "tslib": "^2.6.1",
+        "typescript": "^5.1",
+        "vite": "^4.4.9"
     }
 }

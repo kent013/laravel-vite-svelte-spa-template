@@ -1,13 +1,18 @@
-# Laravel 9 + Vite + Svelte + Tailwind CSS
+# Laravel 10 + Vite + Svelte + Tailwind CSS
 
 This starter template includes:
 
--   Laravel 9
+-   Laravel 10
 -   Vite
 -   Svelte
 -   Tailwind CSS (w/ `@tailwindcss/forms`)
 -   Axios
 -   TypeScript
+-   Docker
+    -   Sail + SSL
+-   PHPStan
+-   PHPCSFixer
+-   pnpm
 
 ## Information
 
@@ -16,16 +21,19 @@ This starter template includes:
 
 ## Installation
 
-Install the composer dependencies:
-
-```bash
-composer install
-```
-
 Make a copy of the `.env.example` file named `.env`:
 
 ```bash
 cp .env.example .env
+```
+
+Open workspace in vscode, select "reopen in dev container"
+
+in remote container, 
+Install the composer dependencies:
+
+```bash
+composer install
 ```
 
 Generate an app key:
@@ -37,27 +45,29 @@ php artisan key:generate
 Install all `package.json` dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Run vite to serve your assets/bundle:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
-Open a new terminal instance and serve the application:
+then access to
 
-```bash
-php artisan serve
-```
+https://localhost
+
+Note: this template is using SSL, please permit self-signed ssl certification from your browser.
+
+https://localhost:5173
 
 ## Deployment
 
 Build the app:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Now all you have to do is serve the Laravel app in a production environment.

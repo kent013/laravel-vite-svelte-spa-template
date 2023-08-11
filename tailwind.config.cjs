@@ -3,6 +3,7 @@ module.exports = {
         "./resources/**/*.blade.php",
         "./resources/**/*.{js,ts}",
         "./resources/**/*.svelte",
+        "./tailwind.safelist",
     ],
     theme: {
         extend: {},
