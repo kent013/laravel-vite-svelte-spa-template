@@ -1,0 +1,4 @@
+[submodule "lib/jakobbouchard/inertia"]
+	path = lib/jakobbouchard/inertia
+	url = git@github.com:jakobbouchard/inertia.git
+	branch = svelte-typescript

@@ -1,10 +1,11 @@
-# Laravel 10 + Vite + Svelte + Tailwind CSS
+# Laravel 10 + Vite + Svelte + Inertia + Tailwind CSS
 
 This starter template includes:
 
 -   Laravel 10
 -   Vite
 -   Svelte
+-   Inertia
 -   Tailwind CSS (w/ `@tailwindcss/forms`)
 -   Axios
 -   TypeScript
@@ -18,6 +19,8 @@ This starter template includes:
 
 -   The app is located in [`resources/js/`](/resources/js/).
 -   You can use [`resources/css/`](/resources/css/) for styling.
+-   inertia-svelte typescript support is not yet completed
+    -   included in this repository as submodule 
 
 ## Installation
 

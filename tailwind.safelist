@@ -1,13 +1,3 @@
-group
-flex
-items-center
-h-full
-w-full
-m-0
-mt-0
-active:animate-shake-top
-opacity-0
-block
-ml-1
-group-hover:opacity-100
-pointer-events-none
+// Write down css classes here which not be able to analyze from html/css codes.
+// Otherwise tailwind compilation process will be remove the definition of the classes which you want to use.
+// This will be a problem if you want to add classes programatically via js.
