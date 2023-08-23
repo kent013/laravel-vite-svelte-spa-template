@@ -1,5 +1,5 @@
 <script lang="ts">
-  import AppLayout from '../layouts/AppLayout.svelte'
+  import AppLayout from '~/components/layouts/AppLayout.svelte'
   export let title: String
 </script>
 

@@ -9,7 +9,7 @@
     "baseUrl": ".",
     "moduleResolution": "node",
     "paths": {
-      "~/*": ["resources/js"]
+      "~/*": ["./resources/js/*"]
     },
     /**
      * Typecheck JS in `.svelte` and `.js` files by default.
