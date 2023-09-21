@@ -22,7 +22,8 @@ This starter template includes:
 -   The app is located in [`resources/js/`](/resources/js/).
 -   You can use [`resources/css/`](/resources/css/) for styling.
 -   inertia-svelte typescript support is not yet completed
-    -   included in this repository as submodule 
+    -   included in this repository as submodule
+    -  https://github.com/inertiajs/inertia/pull/1614
 
 ## Installation
 
