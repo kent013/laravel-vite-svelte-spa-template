@@ -32,4 +32,7 @@ export default defineConfig({
       '~/': `${__dirname}/resources/js/`,
     },
   },
+  define: {
+    global: 'window',
+  },
 })

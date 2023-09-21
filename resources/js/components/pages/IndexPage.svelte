@@ -1,10 +1,16 @@
 <script lang="ts">
-  import AppLayout from '~/components/layouts/AppLayout.svelte'
+  import TwoColumnLayout from '~/components/layouts/TwoColumnLayout.svelte'
   export let title: String
 </script>
 
-<AppLayout>
-  <div class="flex flex-col items-center text-center space-y-4">
-    <h1 class="block mt-4 font-bold text-4xl">{title}</h1>
+<TwoColumnLayout>
+  <div slot="sidebar">
+    <ul>
+      <li>hoge</li>
+      <li>moge</li>
+    </ul>
   </div>
-</AppLayout>
+  <div slot="content">
+    <h1 class="block font-bold text-4xl">{title}</h1>
+  </div>
+</TwoColumnLayout>
