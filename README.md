@@ -1,4 +1,4 @@
-# Laravel 10 + Vite + Svelte + Inertia + Tailwind CSS
+# Laravel 10 + Vite + Typescript + Svelte + Inertia + Breeze + Tailwind CSS
 
 This starter template includes:
 
@@ -6,6 +6,8 @@ This starter template includes:
 -   Vite
 -   Svelte
 -   Inertia
+-   Breeze Authentication Template
+-   Typescript
 -   Tailwind CSS (w/ `@tailwindcss/forms`)
 -   Axios
 -   TypeScript
